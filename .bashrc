@@ -9,7 +9,7 @@
 
 # useful: http://tldp.org/LDP/abs/html/sample-bashrc.html
 
-# Contact: Fernando Pérez <fdo.perez@gmail.com>
+# Contact: Sarah Song <sasong@berkeley.edu>
 
 ############################################################################
 # Source global definitions
@@ -156,7 +156,7 @@ elif [[ "$OSTYPE" == "darwin"* ]]; then
     alias emacsapp='open -a /Applications/Emacs.app/'
     alias zoom='echo "https://berkeley.zoom.us/my/fperez" | pbcopy'
     alias zoom2='echo "https://lbnl.zoom.us/my/fperez" | pbcopy'
-    alias email='echo "fernando.perez@berkeley.edu" | pbcopy'
+    alias email='echo "sasong@berkeley.edu" | pbcopy'
     alias orcid='echo 0000-0002-1725-9815 | pbcopy'
 else
     echo "No OS-specific aliases, OS unknown.";
